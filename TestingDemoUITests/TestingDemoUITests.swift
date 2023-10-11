@@ -26,7 +26,21 @@ final class TestingDemoUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
+        let decrementStaticText = app/*@START_MENU_TOKEN@*/.staticTexts["Decrement"]/*[[".buttons[\"Decrement\"].staticTexts[\"Decrement\"]",".staticTexts[\"Decrement\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        decrementStaticText.tap()
+        
+        let element = app.windows.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+        element.tap()
+        decrementStaticText.tap()
+        decrementStaticText.tap()
+        
+        let incrementStaticText = app/*@START_MENU_TOKEN@*/.staticTexts["Increment"]/*[[".buttons[\"Increment\"].staticTexts[\"Increment\"]",".staticTexts[\"Increment\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        incrementStaticText.tap()
+        incrementStaticText.tap()
+        incrementStaticText.tap()
+        decrementStaticText.tap()
+        element.tap()
+        
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

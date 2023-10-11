@@ -27,10 +27,25 @@ final class TestingDemoTests: XCTestCase {
     }
 
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
 
+    }
+    
+    //MARK: - MathOperation Tests
+    func testAdd(){
+        let math = MathOperations()
+        let sum = math.add(a: 3, b: 3)
+        XCTAssertEqual(sum, 6)
+    }
+    
+    func testMultiply(){
+        let math = MathOperations()
+        let product = math.multiply(a: 3, b: 3)
+        XCTAssertEqual(product, 9)
+    }
+    
+    func testDivide(){
+        let math = MathOperations()
+        let quotient = math.divide(a: 3, b: 3)
+        XCTAssertEqual(quotient, 1)
+    }
 }

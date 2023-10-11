@@ -16,6 +16,7 @@
 		92E254392AD668B000578433 /* TestingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E254382AD668B000578433 /* TestingDemoTests.swift */; };
 		92E254432AD668B000578433 /* TestingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E254422AD668B000578433 /* TestingDemoUITests.swift */; };
 		92E254452AD668B000578433 /* TestingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E254442AD668B000578433 /* TestingDemoUITestsLaunchTests.swift */; };
+		92E254522AD669D500578433 /* MathOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E254512AD669D500578433 /* MathOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		92E2543E2AD668B000578433 /* TestingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E254422AD668B000578433 /* TestingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDemoUITests.swift; sourceTree = "<group>"; };
 		92E254442AD668B000578433 /* TestingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92E254512AD669D500578433 /* MathOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				92E2542A2AD668B000578433 /* Assets.xcassets */,
 				92E2542C2AD668B000578433 /* LaunchScreen.storyboard */,
 				92E2542F2AD668B000578433 /* Info.plist */,
+				92E254512AD669D500578433 /* MathOperations.swift */,
 			);
 			path = TestingDemo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E254262AD668AC00578433 /* ViewController.swift in Sources */,
+				92E254522AD669D500578433 /* MathOperations.swift in Sources */,
 				92E254222AD668AC00578433 /* AppDelegate.swift in Sources */,
 				92E254242AD668AC00578433 /* SceneDelegate.swift in Sources */,
 			);
